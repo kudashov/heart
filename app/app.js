@@ -1,7 +1,7 @@
 const http = require('http');
 
-const hostname = '0.0.0.0'; // listen on all ports
-const port = 1337;
+const hostname = '127.0.0.1'; // listen on all ports
+const port = 8881;
 
 http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
